@@ -1,0 +1,32 @@
+#supportHero{
+    background-color: #387ed1;
+    color:#fff;
+}
+#supportWrapper{
+    display:flex;
+    justify-content: space-between;
+    margin:0 150px;
+}
+#supportHero a{
+    color:#fff;
+  
+}
+#supportHero input{
+    padding:20px 250px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+@media only screen and (max-width:600px) {
+#supportHero input {
+    padding: 10px 50px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+#supportWrapper {
+    display: inline!important;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+}

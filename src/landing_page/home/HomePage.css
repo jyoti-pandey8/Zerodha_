@@ -1,0 +1,36 @@
+/* Css for Awards.js */
+
+@media only screen and (max-width:600px) {
+  .LargerBroker-img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -59px;
+    margin-bottom: 50px;
+  }
+  .PressLogo-img{
+    width: 100% !important;
+    height: 5%;
+}
+/* css for education.js */
+.Education-img{
+    padding-top:-60px!important;
+}
+.Education{
+    margin-top: -75px !important;
+}
+.stats-link {
+  font-size: 13px;
+  text-align: center !important;
+}
+.imgStats{
+
+  
+}
+.pricing{
+  margin-top: -40px !important;
+  width:70%;
+}
+}
+.pricing{
+  width:70%;
+}

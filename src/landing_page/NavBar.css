@@ -1,0 +1,53 @@
+@media only screen and (max-width:600px) {
+    .navbar .container .navbar-toggler {
+        position: absolute;
+        right: 10px;
+        border:#fff;
+        z-index: 101;
+        color:#fff;
+        
+    }
+    .navbar-brand {
+          
+        padding-left: 10px!important;
+    }
+    
+
+   
+}
+.nav-link{
+    margin-left: 40px;
+    font-weight: 500;
+}
+/* NavBar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other elements */
+    transition: background-color 0.3s ease-in-out; /* Optional smooth transition */
+  }
+  
+ 
+  
+  /* Ensure body content doesn't overlap with the navbar */
+  body {
+    padding-top: 70px; /* Adjust according to navbar height */
+  }
+  
+  /* Fixed position for the toggle button */
+  .navbar-toggler {
+    position: fixed;
+    top: 10px; /* Adjust according to your navbar height */
+    right: 15px;
+    z-index: 1100; /* Ensure it's above the navbar */
+    border: none;
+    background-color: transparent; /* Optional: Style it to match your design */
+  }
+  
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+  }
+    
